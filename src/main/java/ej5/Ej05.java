@@ -66,7 +66,7 @@ public class Ej05 {
 
         enteroShort = 19;
 
-        enteroLong = 1518;
+        enteroLong = 1518L;
 
         CONSTANTEINT = 10;
 
@@ -74,15 +74,17 @@ public class Ej05 {
 
         // APARTADO E
 
-        System.out.println("Int: " + entero + ", ocupa de -2147483648 a 2147483647" +
-                "\nDouble: " + decimalDouble + ", ocupa de ±1.7976931348623157e+309 a ±4.94065645841246544e-324" +
-                "\nFloat: " + decimalFloat + ", ocupa de ±3.40282347e+38F a ±1.40239846e-45F" +
-                "\nChar: " + caracter + ", ocupa de u0000 a uFFFF" +
-                "\nBoolean " + verdaderoFalso + ", verdadero o falso" +
-                "\nByte " + enteroByte + ", ocupa de -128 a 127" +
-                "\nShort " + enteroShort + ", ocupa de 32768 a 32767" +
-                "\nLong " + enteroLong + ", ocupa de -922117036854775808L a +922117036854775807L" +
-                "\nConstante int " + CONSTANTEINT + ", ocupa"
+        System.out.println("Int: " + entero + ", ocupa 32 bits" +
+                "\nDouble: " + decimalDouble + ", ocupa 64 bits" +
+                "\nFloat: " + decimalFloat + ", ocupa 32 bits" +
+                "\nChar: " + caracter + ", ocupa 16 bits" +
+                "\nBoolean " + verdaderoFalso + ", ocupa 1 bit" +
+                "\nByte " + enteroByte + ", ocupa 8 bits" +
+                "\nShort " + enteroShort + ", ocupa 16 bits" +
+                "\nLong " + enteroLong + ", ocupa 64 bits" +
+                "\nConstante int " + CONSTANTEINT +
+                "\nConstante double " + CONSTANTEDOUBLE +
+                "\nString " + palabra
                 );
     }
 }
