@@ -15,8 +15,8 @@ public class EjPag21 {
         int mes = teclado.nextInt();
 
         System.out.println("De que año?");
-        int año = teclado.nextInt();
+        int year = teclado.nextInt();
 
-        System.out.println("Hola " + nombre + " naciste el " + dia + "/" + mes + "/" + año);
+        System.out.println("Hola " + nombre + " naciste el " + dia + "/" + mes + "/" + year);
     }
 }
