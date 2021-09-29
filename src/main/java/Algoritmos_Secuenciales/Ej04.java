@@ -11,10 +11,10 @@ public class Ej04 {
         System.out.println("Cambio de gramos a Libras. \nIntroduce la cantidad de gramos");
         double gramos = teclado.nextDouble();
         // Declaramos e inicializamos variable constante double para el cambio de gramos a libras
-        final double VALOR = 0.00220462;
+        final double CAMBIO = 0.00220462;
         // Guardamos en otra variable el valor total del cambio de gramos a libras
-        double cambio = gramos*VALOR;
+        double resultado = gramos * CAMBIO;
         // Mostramos por pantalla el cambio
-        System.out.println("El cambio de: " + gramos + " gramos a Libras es de: " + cambio + " libras");
+        System.out.println("El cambio de: " + gramos + " gramos a Libras es de: " + resultado + " libras");
     }
 }

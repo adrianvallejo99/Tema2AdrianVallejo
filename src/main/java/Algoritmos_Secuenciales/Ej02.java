@@ -11,7 +11,7 @@ public class Ej02 {
         System.out.println("Introduce el radio de tu circulo:");
         double radio = teclado.nextDouble();
         // Calculamos el area del circulo y la guardamos en otra variable
-        double area = Math.PI * radio * radio;
+        double area = Math.PI * Math.pow(radio, 2);
         // Mostramos por pantalla el resultado
         System.out.println("El area de tu círculo es de: " + area);
     }

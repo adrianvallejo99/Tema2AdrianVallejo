@@ -14,7 +14,7 @@ public class Ej03 {
         System.out.println("Introduce una tercera nota:");
         double nota3 = teclado.nextDouble();
         // Calculamos la media de las notas
-        double media = (nota1+nota2+nota3)/3;
+        double media = (nota1 + nota2 + nota3) / 3;
         // Mostramos por pantalla el resultado
         System.out.println("La media de las notas es: " + media);
     }

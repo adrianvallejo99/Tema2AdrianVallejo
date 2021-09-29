@@ -14,7 +14,7 @@ public class Ej05 {
         double km = teclado.nextDouble();
 
         // Guardamos en una variable el coste total del servicio
-        double costeTotal = 150 + precioKM * km;
+        double costeTotal = FIJO + precioKM * km;
         // Mostramos por pantalla el resultado
         System.out.println("Coste total del servicio: " + costeTotal + " euros");
     }
