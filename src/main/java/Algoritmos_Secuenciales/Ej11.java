@@ -20,7 +20,7 @@ public class Ej11 {
         System.out.println("Introduce coordenadas y punto 2:");
         int y2 = teclado.nextInt();
 
-        double distancia = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
+        double distancia = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1),2));
         System.out.println("La distancia es: " + distancia);
     }
 }

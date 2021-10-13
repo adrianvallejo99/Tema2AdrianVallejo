@@ -19,23 +19,23 @@ public class Ej09 {
 
         // APARTADO B
         // Declaramos variable booleanas
-        boolean comparador1;
-        boolean comparador2;
-        boolean comparador3;
-        boolean comparador4;
+        boolean aMenorB;
+        boolean aMayorB;
+        boolean aIgualB;
+        boolean aDistintoB;
 
         // APARTADO C
         // Inicializamos las variables booleanas con operaciones de comparación entre dos variables enteras
-        comparador1 = a<b; // a menor que b
-        comparador2 = a>b; // a mayor que b
-        comparador3 = a==b; // a igual que b
-        comparador4 = a!=b; // a distinto que b
+        aMenorB = a < b; // a menor que b
+        aMayorB = a > b; // a mayor que b
+        aIgualB = a == b; // a igual que b
+        aDistintoB = a != b; // a distinto que b
 
         // APARTADO D
         // Mostramos por pantalla las variables booleanas
-        System.out.println("Comparador a<b: " + comparador1 +
-                "\nComparador a>b: " + comparador2 +
-                "\nComparador a==b: " + comparador3 +
-                "\nComparador a!=b: " + comparador4);
+        System.out.println("Comparador a<b: " + aMenorB +
+                "\nComparador a>b: " + aMayorB +
+                "\nComparador a==b: " + aIgualB +
+                "\nComparador a!=b: " + aDistintoB);
     }
 }

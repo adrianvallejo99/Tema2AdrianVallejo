@@ -3,6 +3,7 @@ package Algoritmos_Secuenciales;
 import java.util.Scanner;
 
 public class Ej07 {
+
     public static void main(String[] args) {
         /*
         Un productor de leche lleva el registro de lo que produce en litros, pero cuando entrega la leche en la
@@ -14,7 +15,7 @@ public class Ej07 {
         Scanner teclado = new Scanner(System.in);
         // Iniciamos variable final GALON, cantidad de litros por Galon
         final double GALON = 3.78;
-        // Iniciamos variable PRECIO, precio por galon
+        // Iniciamos variable final PRECIO, precio por galon
         final double PRECIO = 1.2;
         // Pedimos por teclado la cantidad de litros
         System.out.println("Introduce la cantidad de litros");
